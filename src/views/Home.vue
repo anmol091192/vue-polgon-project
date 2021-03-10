@@ -71,7 +71,7 @@
     <v-container>
       <v-row justify="center">
         <v-col
-          cols="8"
+          cols="12"
         >
         <v-expansion-panels 
         accordion
@@ -82,7 +82,7 @@
             :key="item.id"
           >
             <v-expansion-panel-header>{{item.name}}</v-expansion-panel-header>
-            <v-expansion-panel-content>
+            <v-expansion-panel-content class="item-description">
               {{item.description}}
             </v-expansion-panel-content>
           </v-expansion-panel>
@@ -153,7 +153,7 @@
 }
 
 .home-searchContainer{
-  width: 50%;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -171,5 +171,9 @@
 .home-whoitfor-heading {
   font-size: 34px;
   font-weight: 900;
+}
+
+.item-description {
+  text-align: left;
 }
 </style>

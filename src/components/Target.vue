@@ -79,8 +79,6 @@ export default {
 .targets {
   background-color: #F5F5F5;
   text-align: center;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 

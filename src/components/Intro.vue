@@ -50,7 +50,7 @@ export default {
   display: flex;
   align-items: center;
   position: relative;
-  width:450px;
+  max-width:450px;
   height: 150px;
   margin: 100px 0;
   background-color: white;
@@ -59,6 +59,7 @@ export default {
 
 .intro-card-text {
   padding: 10px;
+  word-break: normal;
   font-size: 24px;
   font-weight: 500;
   margin-left: auto;

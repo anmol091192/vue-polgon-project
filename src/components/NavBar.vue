@@ -4,7 +4,10 @@
       app
       flat
     >
-
+      <v-img
+      max-width="128"
+      src="https://hellopolygon.com/img/logo.abde79e7.svg"
+      ></v-img>
       <v-spacer></v-spacer>
       <v-menu
         left
@@ -74,13 +77,6 @@
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Home</v-list-item-title>
-          </v-list-item>
-
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>Account</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>

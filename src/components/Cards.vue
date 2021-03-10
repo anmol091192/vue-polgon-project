@@ -1,10 +1,11 @@
 <template>
     <v-container>
-        <v-row dense>
+        <v-row>
             <v-col
             v-for="card in cards"
             :key="card.id"
-            cols="4"
+            cols="12"
+            md="4"
             class="card-styling"
             >
                 <Card :card="card"/>

@@ -3,7 +3,8 @@
   <v-container>
     <v-row justify="center">
       <v-col
-        cols="8"
+        cols="12"
+        md="6"
       >
         <v-stepper
         class="signup-wrapper"
