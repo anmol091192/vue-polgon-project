@@ -8,12 +8,26 @@
             Let's get you started with a free consultation.
             </p>
         </div>
+        <v-btn
+            class="intro-button"
+            color="secondary"
+            min-height="50"
+            @click="changestep"
+        >
+                Continue
+        </v-btn>
     </div>
 </template>
 
 <script>
 export default {
     name: 'Intro',
+    emits: ['step'],
+    methods: {
+        changestep() {
+            this.$emit('change-step');
+        }
+    },
 }
 
 </script>
@@ -26,6 +40,10 @@ export default {
   flex-direction: column;
   align-items: center;
 
+}
+
+.intro-button {
+  width: 60%;
 }
 
 .intro-card {
