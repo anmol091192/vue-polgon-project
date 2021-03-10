@@ -118,22 +118,22 @@
             {
                 id: 1,
                 name: "1. Consultation and intake",
-                description: "Comprehensive assessment for dyslexia, dyscalculia, and other learning differences in reading, math, and writing." ,
+                description: "In your complimentary consultation, a referral specialist will answer all your questions. If you’re a good fit for an assessment, we’ll get a full history and schedule your appointment." ,
             }, 
             {
                 id: 2,
                 name: "2. Tele-assessment",
-                description: "Comprehensive assessment for ADHD. Available as an add-on to a specific learning differences assessment.",
+                description: "Meet your psychologist from the comfort of your home. Our licensed PhD/PsyD psychologists have years of experience and use widely-accepted, gold-standard assessment procedures.",
             },
             {
                 id: 3,
                 name: "3. Report within a week",
-                description: "Ongoing support appointments with your psychologist. Available as an assessment add-on.",
+                description: "Your report — with an official diagnosis and tailored recommendations — is valid for eligibility determinations for an IEP, testing accommodations, and other services.",
             },
             {
                 id: 4,
                 name: "4. Follow-up support",
-                description: "Ongoing support appointments with your psychologist. Available as an assessment add-on.",
+                description: "After your assessment, book ongoing appointments. Your psychologist can help with general support and, if needed, school IEP and learning plan advocacy sessions.",
             }
         ]
     }),
