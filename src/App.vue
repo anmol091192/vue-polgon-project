@@ -4,14 +4,8 @@
     <v-main>
       <router-view></router-view>
     </v-main>
-    <v-footer
-    color="#E0E0E0"
-    padless
-    >
-      <v-col
-        class="text-center"
-        cols="12"
-      >
+    <v-footer color="#E0E0E0" padless>
+      <v-col class="text-center" cols="12">
         {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
       </v-col>
     </v-footer>
@@ -19,18 +13,18 @@
 </template>
 
 <script>
-import NavBar from './components/NavBar';
+import NavBar from "./components/NavBar";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    NavBar
-  }
-}
+    NavBar,
+  },
+};
 </script>
 
 <style scoped>
-  #app {
-    background-color: #BDBDBD;
-  }
+#app {
+  background-color: #bdbdbd;
+}
 </style>

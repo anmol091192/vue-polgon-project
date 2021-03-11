@@ -1,45 +1,41 @@
 <template>
-    <div
-        class="intro"
-    >
-        <h1>Hello!</h1>
-        <div class="intro-card">
-            <p class="intro-card-text">
-            Let's get you started with a free consultation.
-            </p>
-        </div>
-        <v-btn
-            class="intro-button"
-            color="secondary"
-            min-height="50"
-            @click="changestep"
-        >
-                Continue
-        </v-btn>
+  <div class="intro">
+    <h1>Hello!</h1>
+    <div class="intro-card">
+      <p class="intro-card-text">
+        Let's get you started with a free consultation.
+      </p>
     </div>
+    <v-btn
+      class="intro-button"
+      color="secondary"
+      min-height="50"
+      @click="changestep"
+    >
+      Continue
+    </v-btn>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'Intro',
-    emits: ['step'],
-    methods: {
-        changestep() {
-            this.$emit('change-step');
-        }
+  name: "Intro",
+  emits: ["step"],
+  methods: {
+    changestep() {
+      this.$emit("change-step");
     },
-}
-
+  },
+};
 </script>
 
 <style>
 .intro {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .intro-button {
@@ -50,7 +46,7 @@ export default {
   display: flex;
   align-items: center;
   position: relative;
-  max-width:450px;
+  max-width: 450px;
   height: 150px;
   margin: 100px 0;
   background-color: white;
