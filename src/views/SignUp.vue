@@ -36,6 +36,9 @@ export default {
     Target,
     ContactForm,
   },
+   metaInfo: {
+    title: 'Signup Page',
+  },
   data() {
     return {
       e1: 1,

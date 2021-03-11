@@ -7,12 +7,11 @@
 - Recreated Polygon's get started flow, accessible through a click on each "Get Started" button of your landing page
 - Incorporated Material Design through the use of Vuetify
 - Dockerized the application through a clear Dockerfile.
-- SEO Optimization done.
+- SEO Optimization done via adding meta tags(title) to each of the pages(Home,Signup).
 
 ### Techology Stack
 - Vue.js (v2.x)
 - Vuetify
-- Prerender SPA Plugin (SEO)
 - Docker
 
 ### Deployed on Netlify

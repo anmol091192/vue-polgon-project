@@ -95,6 +95,9 @@ export default {
   components: {
     Cards,
   },
+  metaInfo: {
+    title: 'Home Page',
+  },
   data: () => ({
     initiallyOpen: ["1. Consultation and intake"],
     items: [
