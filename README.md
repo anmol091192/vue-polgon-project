@@ -1,5 +1,25 @@
 # vue-polygon-project
 
+### About
+- Rebranded the DuckDuckGo landing page using Polygon design elements.
+- Builded the landing page using Vue.js framework
+- Renamed "Add DuckDuckGo to Chrome" buttons as "Get Started"
+- Recreated Polygon's get started flow, accessible through a click on each "Get Started" button of your landing page
+- Incorporated Material Design through the use of Vuetify
+- Dockerized the application through a clear Dockerfile.
+- SEO Optimization done.
+
+### Techology Stack
+- Vue.js (v2.x)
+- Vuetify
+- Prerender SPA Plugin (SEO)
+- Docker
+
+### Deployed on Netlify
+```
+https://dreamy-lichterman-6effa1.netlify.app/
+```
+
 ## Project setup
 ```
 npm install
@@ -15,5 +35,22 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Docker Development Environment
+- To build the Docker image, please run the following command.
+```
+docker build -t myapp .
+```
+- Spin up the Docker container
+```
+docker run -it -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules -p 8080:8080 myapp
+```
+
+### Docker Production ready Image 
+- Building the production Image
+```
+docker build -f Dockerfile-prod -t myapp-prod .
+```
+- Running the Container
+```
+docker run -it -p 80:80 --rm myapp-prod
+```
