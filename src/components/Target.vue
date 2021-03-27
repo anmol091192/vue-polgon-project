@@ -6,7 +6,7 @@
         flat
         :class="`${hover ? 'targets-card-hover' : 'targets-card'}`"
         @click="handleSelect('myself')"
-        min-width="60%"
+        max-width="400px"
         min-height="100"
       >
         Myself
@@ -17,7 +17,7 @@
         color="#fff"
         :class="`${hover ? 'targets-card-hover' : 'targets-card'}`"
         @click="handleSelect('myChild')"
-        min-width="60%"
+        max-width="400px"
         min-height="100"
         flat
       >
@@ -29,7 +29,7 @@
         color="#fff"
         :class="`${hover ? 'targets-card-hover' : 'targets-card'}`"
         @click="handleSelect('someoneElse')"
-        min-width="60%"
+        max-width="400px"
         min-height="100"
         flat
       >
@@ -37,7 +37,7 @@
       </v-card>
     </v-hover>
     <v-btn
-      min-width="60%"
+      min-width="50%"
       min-height="50"
       color="secondary"
       @click="handleClick"
@@ -81,12 +81,16 @@ export default {
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .targets-card-hover {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   font-size: 20px;
   font-weight: 700;

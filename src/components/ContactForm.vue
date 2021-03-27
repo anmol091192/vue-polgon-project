@@ -5,10 +5,10 @@
       <v-text-field
         label="Full Name"
         placeholder="Placeholder"
+        class="contact-cards"
         v-model="name"
         ref="name"
         :rules="[() => !!name || 'This field is required']"
-        full-width
         flat
         outlined
         solo
@@ -16,9 +16,9 @@
       <v-text-field
         label="State"
         v-model="state"
+        class="contact-cards"
         ref="state"
         :rules="[() => !!state || 'This field is required']"
-        full-width
         flat
         outlined
         solo
@@ -26,10 +26,10 @@
       <v-text-field
         label="Phone Number"
         placeholder="Placeholder"
+        class="contact-cards"
         v-model="phoneNumber"
         ref="phoneNumber"
         :rules="[rules.required, rules.phoneNumber]"
-        full-width
         flat
         outlined
         solo
@@ -37,7 +37,7 @@
       <v-text-field
         label="E-mail"
         placeholder="Placeholder"
-        full-width
+        class="contact-cards"
         v-model="email"
         ref="email"
         :rules="[rules.required, rules.email]"
@@ -113,5 +113,13 @@ export default {
 .contact {
   background-color: #f5f5f5;
   text-align: center;
+  display: inline-block;
+}
+
+
+.contact-cards {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>

@@ -5,7 +5,7 @@
       contain
       max-height="300"
       max-width="354"
-      src="polygon_logo.png"
+      src="../assets/vuetify.png"
     ></v-img>
 
     <div class="home-searchContainer">

@@ -16,6 +16,9 @@
               <v-stepper-content class="signup-content" step="3">
                 <ContactForm @third-step="handleSubmit" />
               </v-stepper-content>
+              <v-stepper-content class="signup-content" step="4">
+                <h2>Thank you for submission</h2>
+              </v-stepper-content>
             </v-stepper-items>
           </v-stepper>
         </v-col>
@@ -51,7 +54,7 @@ export default {
   },
   methods: {
     handleSubmit(data) {
-      this.e1 = 1;
+      this.e1 = 4;
       // submit /call to api can be handled here
     },
     handleContinue(target) {

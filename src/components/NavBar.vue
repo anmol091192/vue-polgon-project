@@ -1,10 +1,15 @@
 <template>
   <div>
     <v-app-bar app flat>
-      <v-img
-        max-width="128"
-        src="https://hellopolygon.com/img/logo.abde79e7.svg"
-      ></v-img>
+      <v-btn
+      depressed
+      plain
+      to="/">
+        <v-img
+          max-width="128"
+          src="../assets/logo-vuejs-min.png"
+        ></v-img>
+      </v-btn>
       <v-spacer></v-spacer>
       <v-menu left bottom>
         <template v-slot:activator="{ on, attrs }">
