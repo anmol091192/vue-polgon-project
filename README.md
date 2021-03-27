@@ -4,7 +4,6 @@
 - Rebranded the DuckDuckGo landing page using Polygon design elements.
 - Builded the landing page using Vue.js framework
 - Renamed "Add DuckDuckGo to Chrome" buttons as "Get Started"
-- Recreated Polygon's get started flow, accessible through a click on each "Get Started" button of your landing page
 - Incorporated Material Design through the use of Vuetify
 - Dockerized the application through a clear Dockerfile.
 - SEO Optimization done via adding meta tags(title) to each of the pages(Home,Signup).
