@@ -1,7 +1,6 @@
-# vue-polygon-project
+# vue-project
 
 ### About
-- Rebranded the DuckDuckGo landing page using Polygon design elements.
 - Builded the landing page using Vue.js framework
 - Renamed "Add DuckDuckGo to Chrome" buttons as "Get Started"
 - Incorporated Material Design through the use of Vuetify
